@@ -1,14 +1,21 @@
 ! Title: temp
-! Version: 2025-02-07-01
+! Version: 2025-02-08
 ! Description: none
 
 
 ! new rules
+@@||accounts.google.com/gsi/$domain=zeta-ai.io
+m.ruliweb.com###timeline
+namechart.kr##div:has(> .adsbygoogle)
+flashscore.co.kr##.zone__inner
 ㅡ
+hasha.in#%#//scriptlet('trusted-click-element', '.gZqVsn.sc-ckEbSK')
 
 
 
 ! already added rules
+@@*fork.org^$extension="PreventPageVisibility"|"Text To link"
+@@||*.top^$image,important
 
 
 
