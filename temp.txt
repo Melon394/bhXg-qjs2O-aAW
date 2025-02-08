@@ -8,14 +8,20 @@
 m.ruliweb.com###timeline
 namechart.kr##div:has(> .adsbygoogle)
 flashscore.co.kr##.zone__inner
+||ads.adoffice.11st.co.kr/v1/11st/da/page/bottom$subdocument
+www.coupang.com##.srp-also-viewed-products-widget
+zdnet.co.kr##.reporter_naver_box
 ㅡ
+gelbooru.com#$##image { width: 105% !important; height: auto !important; }
+@@*$image,stealth=referrer,domain=mangapark.net
 hasha.in#%#//scriptlet('trusted-click-element', '.gZqVsn.sc-ckEbSK')
 
 
 
 ! already added rules
-@@*fork.org^$extension="PreventPageVisibility"|"Text To link"
+@@/(greasy|sleazy)fork.org/$extension="PreventPageVisibility"|"Text To link"
 @@||*.top^$image,important
+gelbooru.com##center > div[style*='width: 300px;']:has(script)
 
 
 
