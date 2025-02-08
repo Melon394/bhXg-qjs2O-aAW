@@ -1,5 +1,5 @@
 ! Title: temp
-! Version: 2025-02-08
+! Version: 2025-02-09
 ! Description: none
 
 
@@ -26,6 +26,8 @@ gelbooru.com##center > div[style*='width: 300px;']:has(script)
 
 
 ! quick fixes
+m.dcinside.com#@#[id^='comment_cnt_']:has(.txt:has-text(/0WImO|010 3928 4468|010-3928-4468|1치킨|2ymR9qLIMiE?si=9egxHvGOEekozS4j|2ymR9qLIMiE?si=56DutilnmBjQ5gYs|3c5.com|3v44|3VVTV|3만원권|4get|5du|5gxJiqCB|5h7XAFI|5HCWK6|5MBgn4FPH5c|7bts.com|7SEjaRXIe57UJDYX|9DGIARyxwl4|9k.gg|9qr.de|20만원|24cx|24w2uvj|31사단|33u.cn|241Bd2y|450원|600원|650원|585559|10553623|콘$서$트|.ax|.me|.top|=앱 다운 즉시|@ 빼고 접속|@ 빼고접속|@빼고 접속|@빼고접속|abit.ly|abrir|aceinfo|Adf.ly|adsld.link|adslid.link|ai6.net|alias.live|alicodekorea|aliepxr|aliexpress|aliwintersale|ani1_new2|animator|antiminju|ap.lc|apply.do|aqz.kr|asq.kr|av신작|baas.kr|bananam.net|baro.flyurl.net|baro.lk|bctbcb.com|best-trust.asia|bit.do|bit.ly|bitly|BJ방송|bkjiso.shop|bl.ink|bltly|bQCWWksU9B4|buff.ly|buzurl.com|by2.io|by.com|byrl.me|c11.kr|campaign.do|causdroel|CB16W0U-MiA|ckierun|clck.ru|cleanuri.com|clk.im|cor.as.Furyito.mxels2-comsmarturttrim|CRLFJG|Crlfjg|cs_new1.10553623|csi|cutecat99|cutt|cutt.ly|cutt.us|cyclee.shop/))
+m.dcinside.com##[id^='comment_cnt_']:has(.txt:has-text(/0WImO|010 3928 4468|010-3928-4468|1치킨|2ymR9qLIMiE?si=9egxHvGOEekozS4j|2ymR9qLIMiE?si=56DutilnmBjQ5gYs|3c5.com|3v44|3VVTV|3만원권|4get|5du|5gxJiqCB|5h7XAFI|5HCWK6|5MBgn4FPH5c|7bts.com|7SEjaRXIe57UJDYX|9DGIARyxwl4|9k.gg|9qr.de|20만원|24cx|24w2uvj|31사단|33u.cn|241Bd2y|450원|600원|650원|585559|10553623|콘$서$트|.ax|.me|.top|=앱 다운 즉시|@ 빼고 접속|@ 빼고접속|@빼고 접속|@빼고접속|abit.ly|abrir|aceinfo|Adf.ly|adsld.link|adslid.link|ai6.net|alias.live|alicodekorea|aliepxr|aliexpress|aliwintersale|ani1_new2|animator|antiminju|ap.lc|apply.do|aqz.kr|asq.kr|av신작|baas.kr|bananam.net|baro.flyurl.net|baro.lk|bctbcb.com|best-trust.asia|bit.do|bit.ly|bitly|BJ방송|bkjiso.shop|bl.ink|bltly|bQCWWksU9B4|buff.ly|buzurl.com|by2.io|by.com|byrl.me|c11.kr|campaign.do|causdroel|CB16W0U-MiA|ckierun|clck.ru|cleanuri.com|clk.im|cor.as.Furyito.mxels2-comsmarturttrim|CRLFJG|Crlfjg|cs_new1.10553623|csi|cutecat99|cutt|cutt.ly|cutt.us|cyclee.shop/))
 
 
 
