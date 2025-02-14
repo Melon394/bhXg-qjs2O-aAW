@@ -1,5 +1,5 @@
 ! Title: temp
-! Version: 2025-02-13
+! Version: 2025-02-15
 ! Description: none
 
 
@@ -28,6 +28,7 @@ newautopost.co.kr##.viewus-wrap-mo
 anime-pictures.net##.cookieConsentWrapper
 m.ygosu.com##li:has(.ygosu_banner)
 a-ha.io##button:has([alt='아하 앱 설치 권유 배너 이미지'])
+m.11st.co.kr##.c-bottom-drawer__tools
 
 
 
@@ -40,6 +41,7 @@ kiosk.ac#%#//scriptlet('set-local-storage-item', 'welcome-dialog-closed', 'true'
 a-ha.io##div:has(> div[height^='2'])
 anime-pictures.net$@$link[rel="manifest"]
 @@||anime-pictures.net^$stealth=push
+itworld.co.kr##[id^='sp_message_container_']:remove()
 
 
 
@@ -57,6 +59,7 @@ m.dcinside.com##[id^='comment_cnt_']:has(.txt:has-text(/ual.kr|틱톡|틱,톡|�
 
 
 ! experimental
+! @@||sia.internet.apps.samsung.com^$important
 
 
 
