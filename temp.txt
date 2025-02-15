@@ -1,5 +1,5 @@
 ! Title: temp
-! Version: 2025-02-15
+! Version: 2025-02-16
 ! Description: none
 
 
@@ -17,7 +17,6 @@ m.11st.co.kr##.swiper-container-android.swiper-container-horizontal.swiper-conta
 www.youtube.com##ytd-reel-shelf-renderer
 kiosk.ac##[id^='revbid-leaderboard']
 rgo4.com##div.clearfix.title-wrap[style]
-rgo4.com##.mb_ver.ss_ad_center
 bluesea-sk.tistory.com,duffy-sea.tistory.com##.container_box_s:has(.adsbygoogle)
 health.solbangwulwebsite.com##.bottom-menu > ul
 popsci.co.kr##div.clearfix
@@ -29,6 +28,14 @@ anime-pictures.net##.cookieConsentWrapper
 m.ygosu.com##li:has(.ygosu_banner)
 a-ha.io##button:has([alt='아하 앱 설치 권유 배너 이미지'])
 m.11st.co.kr##.c-bottom-drawer__tools
+quasarplay.com##[id^='mo-container-']
+quasarplay.com##[class*='venatus']
+quasarzone.com##[class$='-banner']
+##[class^='top-banner']
+##[class$='top-banner']
+##[class*='_ad_']
+##[id*='_ad_']
+##li:has([href^='https://xn--'])
 
 
 
@@ -42,6 +49,10 @@ a-ha.io##div:has(> div[height^='2'])
 anime-pictures.net$@$link[rel="manifest"]
 @@||anime-pictures.net^$stealth=push
 itworld.co.kr##[id^='sp_message_container_']:remove()
+*##[id*='_ad_']
+*##[class*='_ad_']
+*##li:has([href^='https://xn--'])
+||xn--$redirect=click2load.html
 
 
 
