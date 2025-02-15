@@ -1,0 +1,18 @@
+! Title: myDNS
+! Version: 1.00
+! Description: My DNS filter.
+
+
+@@||adtouch.adbrix.io^
+@@||api2.branch.io^
+@@||auction.co.kr^
+@@||cdn1.innorame.com^
+@@||gmarket.co.kr^
+@@||onelink.me^
+||action.adoffice.11st.co.kr^$badfilter
+||adcr.naver.com^$badfilter
+||buzzvil.com^$badfilter
+||displayad.lotteon.com^$badfilter
+
+! seorinexpress.com
+@@||cr.acecounter.com^
