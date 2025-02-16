@@ -4,68 +4,14 @@
 
 
 ! new rules
-@@||accounts.google.com/gsi/$domain=zeta-ai.io
-m.ruliweb.com###timeline
-namechart.kr##div:has(> .adsbygoogle)
-flashscore.co.kr,flashscore.*##.zone__inner
-||ads.adoffice.11st.co.kr/v1/11st/da/page/$subdocument
-www.coupang.com##.srp-also-viewed-products-widget
-zdnet.co.kr##.reporter_naver_box
-gelbooru.com#$##image { width: 110% !important; height: auto !important; }
-m.11st.co.kr##.swiper-container-android.swiper-container-horizontal.swiper-container-initialized.w-swiper
-||*-collector.naver.com^
-www.youtube.com##ytd-reel-shelf-renderer
-kiosk.ac##[id^='revbid-leaderboard']
-rgo4.com##div.clearfix.title-wrap[style]
-bluesea-sk.tistory.com,duffy-sea.tistory.com##.container_box_s:has(.adsbygoogle)
-health.solbangwulwebsite.com##.bottom-menu > ul
-popsci.co.kr##div.clearfix
-www.youtube.com#$#.ytp-ce-element-show { visibility:hidden !important; }
-m.gmarket.co.kr##.link__banner
-dasaja.co.kr##.all_ad_wrapper
-newautopost.co.kr##.viewus-wrap-mo
-anime-pictures.net##.cookieConsentWrapper
-m.ygosu.com##li:has(.ygosu_banner)
-a-ha.io##button:has([alt='아하 앱 설치 권유 배너 이미지'])
-m.11st.co.kr##.c-bottom-drawer__tools
-quasarplay.com##[id^='mo-container-']
-quasarplay.com##[class*='venatus']
-quasarzone.com##[class$='-banner']
-##[class^='top-banner']
-##[class$='top-banner']
-##[class*='_ad_']
-##[id*='_ad_']
-##li:has([href^='https://xn--'])
 
 
 
 ! already added rules
-@@/(greasy|sleazy)fork.org/$extension="PreventPageVisibility"|"Text To link"
-@@||*.top^$image,important
-gelbooru.com##center > div[style*='width: 300px;']:has(script)
-hasha.in#%#//scriptlet('trusted-click-element', '.gZqVsn.sc-ckEbSK')
-kiosk.ac#%#//scriptlet('set-local-storage-item', 'welcome-dialog-closed', 'true')
-a-ha.io##div:has(> div[height^='2'])
-anime-pictures.net$@$link[rel="manifest"]
-@@||anime-pictures.net^$stealth=push
-itworld.co.kr##[id^='sp_message_container_']:remove()
-*##[id*='_ad_']
-*##[class*='_ad_']
-*##li:has([href^='https://xn--'])
-||xn--$redirect=click2load.html
 
 
 
 ! quick fixes
-11st.co.kr#@##vueWrapper > div > div > div.l-grid
-||cmpv2.itworld.co.kr/index.html$subdocument,badfilter
-itworld.co.kr#@#body:style(overflow: auto !important; position: static !important;)
-m.dcinside.com#@#[id^='comment_cnt_']:has(.txt:has-text(/0WImO|010 3928 4468|010-3928-4468|1치킨|2ymR9qLIMiE?si=9egxHvGOEekozS4j|2ymR9qLIMiE?si=56DutilnmBjQ5gYs|3c5.com|3v44|3VVTV|3만원권|4get|5du|5gxJiqCB|5h7XAFI|5HCWK6|5MBgn4FPH5c|7bts.com|7SEjaRXIe57UJDYX|9DGIARyxwl4|9k.gg|9qr.de|20만원|24cx|24w2uvj|31사단|33u.cn|241Bd2y|450원|600원|650원|585559|10553623|콘$서$트|.ax|.me|.top|=앱 다운 즉시|@ 빼고 접속|@ 빼고접속|@빼고 접속|@빼고접속|abit.ly|abrir|aceinfo|Adf.ly|adsld.link|adslid.link|ai6.net|alias.live|alicodekorea|aliepxr|aliexpress|aliwintersale|ani1_new2|animator|antiminju|ap.lc|apply.do|aqz.kr|asq.kr|av신작|baas.kr|bananam.net|baro.flyurl.net|baro.lk|bctbcb.com|best-trust.asia|bit.do|bit.ly|bitly|BJ방송|bkjiso.shop|bl.ink|bltly|bQCWWksU9B4|buff.ly|buzurl.com|by2.io|by.com|byrl.me|c11.kr|campaign.do|causdroel|CB16W0U-MiA|ckierun|clck.ru|cleanuri.com|clk.im|cor.as.Furyito.mxels2-comsmarturttrim|CRLFJG|Crlfjg|cs_new1.10553623|csi|cutecat99|cutt|cutt.ly|cutt.us|cyclee.shop/))
-m.dcinside.com##[id^='comment_cnt_']:has(.txt:has-text(/0WImO|010 3928 4468|010-3928-4468|1치킨|2ymR9qLIMiE?si=9egxHvGOEekozS4j|2ymR9qLIMiE?si=56DutilnmBjQ5gYs|3c5.com|3v44|3VVTV|3만원권|4get|5du|5gxJiqCB|5h7XAFI|5HCWK6|5MBgn4FPH5c|7bts.com|7SEjaRXIe57UJDYX|9DGIARyxwl4|9k.gg|9qr.de|20만원|24cx|24w2uvj|31사단|33u.cn|241Bd2y|450원|600원|650원|585559|10553623|콘$서$트|.ax|.top|=앱 다운 즉시|@ 빼고 접속|@ 빼고접속|@빼고 접속|@빼고접속|abit.ly|abrir|aceinfo|Adf.ly|adsld.link|adslid.link|ai6.net|alias.live|alicodekorea|aliepxr|aliexpress|aliwintersale|ani1_new2|animator|antiminju|ap.lc|apply.do|aqz.kr|asq.kr|av신작|baas.kr|bananam.net|baro.flyurl.net|baro.lk|bctbcb.com|best-trust.asia|bit.do|bit.ly|bitly|BJ방송|bkjiso.shop|bl.ink|bltly|bQCWWksU9B4|buff.ly|buzurl.com|by2.io|by.com|byrl.me|c11.kr|campaign.do|causdroel|CB16W0U-MiA|ckierun|clck.ru|cleanuri.com|clk.im|cor.as.Furyito.mxels2-comsmarturttrim|CRLFJG|Crlfjg|cs_new1.10553623|csi|cutecat99|cutt|cutt.ly|cutt.us|cyclee.shop/))
-m.dcinside.com#@#[id^='comment_cnt_']:has(.txt:has-text(/mcaf.ee|meba.link|meet2.kr|mini.me|miniurl.cl|mkdf.fun|mma|moy.kr|muz.so|myagit.xyz|mysl|n9.cl|nkbada.com|novel20.xyz|novelagit.xyz|novelfree|noxlink|nuly.do|nurl|nyaa.si|oa.to|oasisfeed|online7game|onlyl᠍inks|orll|Os4d9PS0XTs|owry|Padgi|pixelfy.me|plus-2070|PNJZX|polr.me|ppt|pTCYI5jrEa|purl.co.kr|q.bc.vc|qr.net|rb.gy|readmore.do|readmore.doNhj9788|rebrand.ly|rebrandly.com|recut.in|ref4295459|replug.io|reurl.cc|reurl.kr|rl.c|roqn001|rotf.lol|RRRRRRRRRRRRRRRRRRRRR|s4ya|s.id|s.uconn.edu|sa.le|sdvx|sher.kro.kr|shiny.link|shlink.io|sho.rt|short.gy|short.io|short.rip|shorter|shorti|shortn|shorturl.ae|shorturl.at|shrtco.de|shrtn|si=xBGP7YCKIgeXHzMN|skrat|smarturl.it|snip.ly|SO77X4BM_1w|soc.link|sou.kr|ssadafile|sshm|sshm3629|su.pr|suo|suri.li|surl|minli.li|minsYsHsekbd4o|minlt2m.kr|minlt2424|minlt.co|minlt.ly|minltcp.pw|minlteemu|minltemu|minltest.loagg|minltictok|minltik|minltiny.cc|minltiny.ie|minltinyurl.com|minltny.im/))
-m.dcinside.com##[id^='comment_cnt_']:has(.txt:has-text(/mcaf.ee|meba.link|meet2.kr|mini.me|miniurl.cl|mkdf.fun|mma|moy.kr|muz.so|myagit.xyz|mysl|n9.cl|nkbada.com|novel20.xyz|novelagit.xyz|novelfree|noxlink|nuly.do|nurl|nyaa.si|oa.to|oasisfeed|online7game|onlyl᠍inks|orll|Os4d9PS0XTs|owry|Padgi|pixelfy.me|plus-2070|PNJZX|polr.me|ppt|pTCYI5jrEa|purl.co.kr|q.bc.vc|qr.net|rb.gy|readmore.do|readmore.doNhj9788|rebrand.ly|rebrandly.com|recut.in|ref4295459|replug.io|reurl.cc|reurl.kr|rl.c|roqn001|rotf.lol|RRRRRRRRRRRRRRRRRRRRR|s4ya|s.uconn.edu|sdvx|sher.kro.kr|shiny.link|shlink.io|sho.rt|short.gy|short.io|short.rip|shorter|shorti|shortn|shorturl.ae|shorturl.at|shrtco.de|shrtn|si=xBGP7YCKIgeXHzMN|skrat|smarturl.it|snip.ly|SO77X4BM_1w|soc.link|sou.kr|ssadafile|sshm|sshm3629|su.pr|suo|suri.li|surl|minli.li|minsYsHsekbd4o|minlt2m.kr|minlt2424|minlt.co|minlt.ly|minltcp.pw|minlteemu|minltemu|minltest.loagg|minltictok|minltik|minltiny.cc|minltiny.ie|minltinyurl.com|minltny.im/))
-m.dcinside.com#@#[id^='comment_cnt_']:has(.txt:has-text(/ual.kr|틱톡|틱,톡|틱.톡|dcinside.me|suri.li|테.무|테,무|♿|즉석당첨|즉,석|페.이|페,이|상,품|상.품|토막|샹품권|ㄱㅏ입|추쳔인|알,리|테mu|으햑!!|윤,하|kanokari|http:|윤하|shorti|쿠폰팩|m.site|.me|전용:|₩|.top|xn--|할 인|알 리|특 가|네 페|20만원|네 이 버|윤 하|투표/))
-m.dcinside.com##[id^='comment_cnt_']:has(.txt:has-text(/ual.kr|틱톡|틱,톡|틱.톡|dcinside.me|suri.li|테.무|테,무|♿|즉석당첨|즉,석|페.이|페,이|상,품|상.품|토막|샹품권|ㄱㅏ입|추쳔인|알,리|테mu|으햑!!|윤,하|kanokari|http:|윤하|shorti|쿠폰팩|m.site|전용:|₩|.top|xn--|할 인|알 리|특 가|네 페|20만원|네 이 버|윤 하|투표|rtx.탑/))
 
 
 
