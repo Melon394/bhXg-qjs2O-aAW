@@ -1,17 +1,21 @@
 ! Title: temp
-! Version: 2025-02-16
+! Version: 2025-02-17
 ! Description: none
 
 
 ! new rules
+kgnews.co.kr##.news_con div[style*='height:']
 
 
 
 ! already added rules
+||xn--$doc
 
 
 
 ! quick fixes
+#@#li:has([href^='https://xn--'])
+||xn--$redirect=click2load.html,badfilter
 
 
 
@@ -23,3 +27,5 @@
 ! passive
 @@||arca.live^$extension="Auto Simya"
 @@||dcinside.com$cookie=_ga
+ㅡ
+fmkorea.com##li:has-text(/LoL|페이커|상 혁|롤드컵|경기움짤|상혁|T1|티원|토트넘/)
