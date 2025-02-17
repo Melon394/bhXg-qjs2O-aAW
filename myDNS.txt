@@ -13,6 +13,3 @@
 ||adcr.naver.com^$badfilter
 ||buzzvil.com^$badfilter
 ||displayad.lotteon.com^$badfilter
-
-! seorinexpress.com
-@@||cr.acecounter.com^
