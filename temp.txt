@@ -31,7 +31,7 @@ m-sooriya.tistory.com##[id^='fix_']
 ! already added rules
 ||xn--$doc
 @@||samsung.com^$extension="Floating PIP Button for mobile"
-@@||ac-p*.namu.la^$stealth=ip|useragent
+@@||ac-p*.namu.la^$stealth,important
 m-sooriya.tistory.*#@$##footer > .inner { position: absolute !important; right: 240px !important; }
 m-sooriya.tistory.com##.entry-content > div:style(margin-top:100px!important;)
 
@@ -40,7 +40,6 @@ m-sooriya.tistory.com##.entry-content > div:style(margin-top:100px!important;)
 #@#li:has([href^='https://xn--'])
 ||xn--$redirect=click2load.html,badfilter
 #@#[target='_blank']:has([src*='banner']):upward(1)
-@@||ac-p*.namu.la^$stealth=referrer|dpi,badfilter
 
 
 ! experimental
