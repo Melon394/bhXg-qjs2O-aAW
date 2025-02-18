@@ -19,21 +19,23 @@ powbitcoiner.com##.col-6 > a
 gpters.org##li:has(#gpters-snippets_newsletter-inline)
 novelpia.com###modal_app
 novelpia.com##.event.bt-nv-menu
-m-sooriya.tistory.com##.entry-content > div > div:nth-of-type(1)
 m-sooriya.tistory.com#$##footer > .inner { position: absolute !important; right: 240px !important; }
 m-sooriya.tistory.com##.page-top
 m-sooriya.tistory.com##.banner-container-nmd
 m-sooriya.tistory.com##div.module_plugin.module:not(:has(.gsc-input))
 m-sooriya.tistory.com##[id^='fix_']
-||koth.kr^$doc,script
-||xn--$redirect=click2load.html
+||koth.kr^$doc
+||koth.kr^$script,domain=m-sooriya.tistory.com
+chatgpt.com##.z-20.right-0.left-0.bottom-full.absolute
 
 
 ! already added rules
 @@||samsung.com^$extension="Floating PIP Button for mobile"
-@@||ac-p*.namu.la^$stealth
+@@||samsung.com^$stealth=1p-cookie
+@@||ac-p*.namu.la^$stealth,important
 m-sooriya.tistory.*#@$##footer > .inner { position: absolute !important; right: 240px !important; }
-m-sooriya.tistory.com##.entry-content > div:style(margin-top:100px!important;)
+||xn--$redirect=click2load.html
+m-sooriya.tistory.com$$script:has-text(/Adsense|ads|signalGooglefcPresent|defen|location|msoth|넷플릭스/)
 
 
 ! quick fixes
