@@ -1,5 +1,5 @@
 ! Title: temp
-! Version: 2025-02-19
+! Version: 2025-02-18
 ! Description: none
 
 
@@ -40,7 +40,7 @@ m-sooriya.tistory.com##.entry-content > div:style(margin-top:100px!important;)
 #@#li:has([href^='https://xn--'])
 ||xn--$redirect=click2load.html,badfilter
 #@#[target='_blank']:has([src*='banner']):upward(1)
-@@[|ac-p*.namu.la^$stealth=referrer|dpi,badfilter
+@@||ac-p*.namu.la^$stealth=referrer|dpi,badfilter
 
 
 ! experimental
