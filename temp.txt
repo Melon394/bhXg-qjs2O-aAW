@@ -1,5 +1,5 @@
 ! Title: temp
-! Version: 2025-02-18
+! Version: 2025-02-19
 ! Description: none
 
 
@@ -12,7 +12,7 @@ mnews.sbs.co.kr##[class$='_banner']
 todaykorea.co.kr##div.clearfix > .box-skin
 m.ohmynews.com##div[style]:has([id^='dablewidget']):not(:has(#lv-container))
 ||ojsfile.ohmynews.com/CMPT_HTM/*.htm$subdocument
-ohmynews.com###dvCenterAd
+ohmynews.com##[id$='Ad']
 coinness.com##[target='_blank']:has(img[alt])
 coinness.com##button[class^='AppBtn']
 powbitcoiner.com##.col-6 > a
@@ -31,7 +31,7 @@ m-sooriya.tistory.com##[id^='fix_']
 ! already added rules
 ||xn--$doc
 @@||samsung.com^$extension="Floating PIP Button for mobile"
-@@||ac-p*.namu.la^$doc,stealth,extension
+@@||ac-p*.namu.la^$stealth=ip|useragent
 m-sooriya.tistory.*#@$##footer > .inner { position: absolute !important; right: 240px !important; }
 m-sooriya.tistory.com##.entry-content > div:style(margin-top:100px!important;)
 
