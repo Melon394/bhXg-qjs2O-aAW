@@ -1,27 +1,36 @@
 ! Title: temp
-! Version: 2025-02-17
+! Version: 2025-02-18
 ! Description: none
 
 
 ! new rules
 kgnews.co.kr##.news_con div[style*='height:']
-
+m.bhc.co.kr##[id^='pop_main']
+notizie.it##.player_evolution
+mnews.sbs.co.kr##[class*='_ad']
+mnews.sbs.co.kr##[class$='_banner']
+todaykorea.co.kr##div.clearfix > .box-skin
+m.ohmynews.com##div[style]:has([id^='dablewidget']):not(:has(#lv-container))
+||ojsfile.ohmynews.com/CMPT_HTM/*.htm$subdocument
+ohmynews.com###dvCenterAd
+coinness.com##[target='_blank']:has([class^='BannerImg'])
+powbitcoiner.com##.col-6 > a
+gpters.org##li:has(#gpters-snippets_newsletter-inline)
 
 
 ! already added rules
 ||xn--$doc
 
 
-
 ! quick fixes
 #@#li:has([href^='https://xn--'])
 ||xn--$redirect=click2load.html,badfilter
-
+@@||ac-p*.namu.la^$stealth,extension
+#@#[target='_blank']:has([src*='banner']):upward(1)
 
 
 ! experimental
 ! @@||sia.internet.apps.samsung.com^$important
-
 
 
 ! passive
