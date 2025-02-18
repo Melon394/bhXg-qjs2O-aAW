@@ -1,5 +1,5 @@
 ! Title: temp
-! Version: 2025-02-18
+! Version: 2025-02-19
 ! Description: none
 
 
@@ -13,20 +13,34 @@ todaykorea.co.kr##div.clearfix > .box-skin
 m.ohmynews.com##div[style]:has([id^='dablewidget']):not(:has(#lv-container))
 ||ojsfile.ohmynews.com/CMPT_HTM/*.htm$subdocument
 ohmynews.com###dvCenterAd
-coinness.com##[target='_blank']:has([class^='BannerImg'])
+coinness.com##[target='_blank']:has(img[alt])
+coinness.com##button[class^='AppBtn']
 powbitcoiner.com##.col-6 > a
 gpters.org##li:has(#gpters-snippets_newsletter-inline)
+novelpia.com###modal_app
+novelpia.com##.event.bt-nv-menu
+m-sooriya.tistory.com##.entry-content > div > div:nth-of-type(1)
+m-sooriya.tistory.com#$##footer > .inner { position: absolute !important; right: 240px !important; }
+m-sooriya.tistory.com##.page-top
+m-sooriya.tistory.com##.banner-container-nmd
+m-sooriya.tistory.com##div.module_plugin.module:not(:has(.gsc-input))
+m-sooriya.tistory.com##[id^='fix_']
+||koth.kr^$doc,script
 
 
 ! already added rules
 ||xn--$doc
+@@||samsung.com^$extension="Floating PIP Button for mobile"
+@@||ac-p*.namu.la^$doc,stealth,extension
+m-sooriya.tistory.*#@$##footer > .inner { position: absolute !important; right: 240px !important; }
+m-sooriya.tistory.com##.entry-content > div:style(margin-top:100px!important;)
 
 
 ! quick fixes
 #@#li:has([href^='https://xn--'])
 ||xn--$redirect=click2load.html,badfilter
-@@||ac-p*.namu.la^$stealth,extension
 #@#[target='_blank']:has([src*='banner']):upward(1)
+@@[|ac-p*.namu.la^$stealth=referrer|dpi,badfilter
 
 
 ! experimental
