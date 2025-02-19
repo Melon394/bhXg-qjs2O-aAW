@@ -27,6 +27,7 @@ m-sooriya.tistory.com##[id^='fix_']
 ||koth.kr^$doc
 ||koth.kr^$script,domain=m-sooriya.tistory.com
 chatgpt.com##.z-20.right-0.left-0.bottom-full.absolute
+||cdn.jsdelivr.net/gh/siru2numa/code@main/defen.js$script,domain=m-sooriya.tistory.com
 
 
 ! already added rules
@@ -35,7 +36,9 @@ chatgpt.com##.z-20.right-0.left-0.bottom-full.absolute
 @@||ac-p*.namu.la^$stealth,important
 m-sooriya.tistory.*#@$##footer > .inner { position: absolute !important; right: 240px !important; }
 ||xn--$redirect=click2load.html
-m-sooriya.tistory.com$$script:has-text(/Adsense|ads|signalGooglefcPresent|defen|location|msoth|넷플릭스/)
+*#%#//scriptlet('prevent-element-src-loading', 'script', 'pagead2.googlesyndication.com')
+m-sooriya.tistory.com#%#//scriptlet('prevent-element-src-loading', 'script', 'https://cdn.jsdelivr.net/gh/abaeksite/aros_adsense_blocker@main/aros_adsense_blocker.js')
+m-sooriya.tistory.com$$script:has-text(/Adsense|ads|coupang|Coupang|signalGooglefcPresent|defen|location|msoth|winbannercount|넷플릭스/)
 
 
 ! quick fixes
