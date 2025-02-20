@@ -4,59 +4,20 @@
 
 
 ! new rules
-kgnews.co.kr##.news_con div[style*='height:']
-m.bhc.co.kr##[id^='pop_main']
-notizie.it##.player_evolution
-mnews.sbs.co.kr##[class*='_ad']
-mnews.sbs.co.kr,bizn.donga.com##[class$='_banner']
-todaykorea.co.kr##div.clearfix > .box-skin
-m.ohmynews.com##div[style]:has([id^='dablewidget']):not(:has(#lv-container))
-||ojsfile.ohmynews.com/CMPT_HTM/*.htm$subdocument
-ohmynews.com##[id$='Ad']
-coinness.com##[target='_blank']:has(img[alt])
-coinness.com##button[class^='AppBtn']
-powbitcoiner.com##.col-6 > a
-gpters.org##li:has(#gpters-snippets_newsletter-inline)
-novelpia.com###modal_app
-novelpia.com##.event.bt-nv-menu
-m-sooriya.tistory.com#$##footer > .inner { position: absolute !important; right: 240px !important; }
-m-sooriya.tistory.com##.page-top
-m-sooriya.tistory.com##.banner-container-nmd
-m-sooriya.tistory.com##div.module_plugin.module:not(:has(.gsc-input))
-m-sooriya.tistory.com##[id^='fix_']
-||koth.kr^$doc
-||koth.kr^$script,domain=m-sooriya.tistory.com
-chatgpt.com##.z-20.right-0.left-0.bottom-full.absolute
-||cdn.jsdelivr.net/gh/siru2numa/code@main/defen.js$script,domain=m-sooriya.tistory.com
-gall.dcinside.com##.r_dcmedia
-biz.chosun.com##div[style*='height']:has(> iframe[width='300'][height='250'])
-||apparelnews.co.kr/upfiles/banner/$image
-0db.co.kr###xt_join_site_addons
-m.ohmynews.com##.slide_bnbox:upward(3)
 
 
 ! already added rules
-@@||samsung.com^$extension="Floating PIP Button for mobile"
-@@||samsung.com^$stealth=1p-cookie
-@@||ac-p*.namu.la^$stealth,important
-m-sooriya.tistory.*#@$##footer > .inner { position: absolute !important; right: 240px !important; }
-m-sooriya.tistory.com#%#//scriptlet('prevent-element-src-loading', 'script', 'https://cdn.jsdelivr.net/gh/abaeksite/aros_adsense_blocker@main/aros_adsense_blocker.js')
-m-sooriya.tistory.com$$script:has-text(/Adsense|ads|coupang|Coupang|signalGooglefcPresent|defen|location|msoth|winbannercount|넷플릭스/)
 
 
 ! quick fixes
-#@#li:has([href^='https://xn--'])
-#@#[target='_blank']:has([src*='banner']):upward(1)
-||xn--$redirect=click2load.html,badfilter
 
 
 ! experimental
 ! @@||sia.internet.apps.samsung.com^$important
-*##div[style*='height']:has(> iframe[width='300'][height='250'])
+##div[style*='height:']:has(.adsbygoogle)
 
 
 ! passive
 @@||arca.live^$extension="Auto Simya"
 @@||dcinside.com$cookie=_ga
 ㅡ
-fmkorea.com##li:has-text(/LoL|페이커|상 혁|롤드컵|경기움짤|상혁|T1|티원|토트넘/)
