@@ -1,8 +1,9 @@
 ! Title: myDNS
-! Version: 1.00
+! Version: 1.01
 ! Description: My DNS filter.
 
 
+! exceptions for incorrect blocking
 @@||adtouch.adbrix.io^
 @@||api2.branch.io^
 @@||auction.co.kr^
@@ -13,3 +14,12 @@
 ||adcr.naver.com^$badfilter
 ||buzzvil.com^$badfilter
 ||displayad.lotteon.com^$badfilter
+
+! dnsrewrite
+||hentaienvy.com^$dnsrewrite=104.16.181.45
+||hentaihaven.$dnsrewrite=104.16.181.45
+||hentaipaw.com^$dnsrewrite=104.16.181.45
+||kissjav.com^$dnsrewrite=104.16.181.45
+||konachan.com^$dnsrewrite=104.16.181.45
+||missav.$dnsrewrite=104.16.181.45
+||mrjav.net^$dnsrewrite=104.16.181.45
