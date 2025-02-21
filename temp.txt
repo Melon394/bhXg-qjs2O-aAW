@@ -1,23 +1,39 @@
 ! Title: temp
-! Version: 2025-02-20
+! Version: 2025-02-21
 ! Description: none
 
 
 ! new rules
+~github.com##body:has-text(pierrotmalls@domain.com)
+##[class^='happy-']:has([target='_blank']:has(img))
+avav19.com##.mobile-banner
+##div[style*='height:']:has(.adsbygoogle)
+##[id^='hd_pop']
+aimatters.co.kr##.popmake-overlay
+algumon.com##.a-post-detail-bottom
+@@||assets.011st.com/MW/js/rake/v1.2.0/rakeLog-mobile.js$domain=11pcs.11st.co.kr
+ㅡ
+[$domain=/^avpink\d+.com/]##.with-sidebar-right.widget-area
+*##[class^='happy-']:has([target='_blank']:has(img))
+*##div[style*='height:']:has(.adsbygoogle)
+[$domain=/^jogaeparty\d+.com/]##[target='_blank']:has(img)
+ㅡ
+@@||blog.naver.com^$extension="PreventPageVisibility"
+@@||cafe.naver.com^$extension="PreventPageVisibility"
+coinpan.com#%#//scriptlet('trusted-click-element', 'div.bottom_actions > div.open_close_button', '', '300')
 
 
 ! already added rules
 
 
 ! quick fixes
+github.com#@#body:has-text(pierrotmalls@domain.com)
 
 
 ! experimental
 ! @@||sia.internet.apps.samsung.com^$important
-##div[style*='height:']:has(.adsbygoogle)
 
 
 ! passive
 @@||arca.live^$extension="Auto Simya"
 @@||dcinside.com$cookie=_ga
-ㅡ
