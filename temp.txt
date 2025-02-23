@@ -5,7 +5,6 @@
 
 ! new rules
 ~github.com##body:has-text(pierrotmalls@domain.com)
-avav19.com##.mobile-banner
 ##div[style*='height:']:has(.adsbygoogle)
 ##[id^='hd_pop']
 aimatters.co.kr##.popmake-overlay
@@ -16,6 +15,9 @@ algumon.com##.a-post-detail-bottom
 ##[class*='ad'][id^='AD']
 ##.ad-view
 watchakr.com##.at-title > .at-container
+news.samsung.com,avav19.com##[class$='anner']
+instiz.net###out_enter
+cashfeed.co.kr##.power-link
 ㅡ
 [$domain=/^hoohootv[0-9]*.[a-zA-Z]{2,}$/]###img_row_container
 [$domain=/^avpink\d+.com/]##.with-sidebar-right.widget-area
@@ -43,3 +45,4 @@ github.com#@#body:has-text(pierrotmalls@domain.com)
 ! passive
 @@||arca.live^$extension="Auto Simya"
 @@||dcinside.com$cookie=_ga
+###immersive-translate-popup
