@@ -1,26 +1,32 @@
 ! Title: temp
-! Version: 2025-02-21
+! Version: 2025-02-23
 ! Description: none
 
 
 ! new rules
 ~github.com##body:has-text(pierrotmalls@domain.com)
-##[class^='happy-']:has([target='_blank']:has(img))
 avav19.com##.mobile-banner
 ##div[style*='height:']:has(.adsbygoogle)
 ##[id^='hd_pop']
 aimatters.co.kr##.popmake-overlay
 algumon.com##.a-post-detail-bottom
+##.happy-header-mobile
+##.happy-under-player-mobile
 @@||assets.011st.com/MW/js/rake/v1.2.0/rakeLog-mobile.js$domain=11pcs.11st.co.kr
+##[class*='ad'][id^='AD']
+##.ad-view
+watchakr.com##.at-title > .at-container
 ㅡ
+[$domain=/^hoohootv[0-9]*.[a-zA-Z]{2,}$/]###img_row_container
 [$domain=/^avpink\d+.com/]##.with-sidebar-right.widget-area
-*##[class^='happy-']:has([target='_blank']:has(img))
 *##div[style*='height:']:has(.adsbygoogle)
 [$domain=/^jogaeparty\d+.com/]##[target='_blank']:has(img)
+[$domain=/^yako[0-9]*.[a-zA-Z]{2,}$/]###banner
+[$domain=/^yatube[0-9]*.[a-zA-Z]{2,}$/]###banner
+[$domain=/^yatv[0-9]*.[a-zA-Z]{2,}$/]###banner
 ㅡ
-@@||blog.naver.com^$extension="PreventPageVisibility"
-@@||cafe.naver.com^$extension="PreventPageVisibility"
 coinpan.com#%#//scriptlet('trusted-click-element', 'div.bottom_actions > div.open_close_button', '', '300')
+@@||mega.io^$extension="Scroll to top"
 
 
 ! already added rules
