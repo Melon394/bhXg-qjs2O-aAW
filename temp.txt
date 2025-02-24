@@ -4,36 +4,39 @@
 
 
 ! new rules
-~github.com##body:has-text(pierrotmalls@domain.com)
-##div[style*='height:']:has(.adsbygoogle)
-##[id^='hd_pop']
-aimatters.co.kr##.popmake-overlay
-algumon.com##.a-post-detail-bottom
+##.ad-view
 ##.happy-header-mobile
 ##.happy-under-player-mobile
-@@||assets.011st.com/MW/js/rake/$domain=11pcs.11st.co.kr
 ##[class*='ad'][id^='AD']
-##.ad-view
-watchakr.com##.at-title > .at-container
-news.samsung.com,avav19.com,yna.co.kr##[class$='anner']
-instiz.net###out_enter
+##[id^='hd_pop']
+##[target='_blank']:has(img[alt$='광고'])
+##[target='_blank']:has(img[alt$='배너'])
+##iframe[src*='cdn.targetpush.co.kr']
+@@||assets.011st.com/MW/js/rake/$domain=11pcs.11st.co.kr
+aimatters.co.kr##.popmake-overlay
+algumon.com##.a-post-detail-bottom
 cashfeed.co.kr##.power-link
+instiz.net###out_enter
+mdilbo.com##div[style^='margin-bottom:']
+news.samsung.com,avav19.com,yna.co.kr##[class$='anner']
+watchakr.com##.at-title > .at-container
 yna.co.kr##.article > aside:has(yna-ad-script)
 yna.co.kr##aside:has([data-widget_id])
-##iframe[src*='cdn.targetpush.co.kr']
+~github.com##body:has-text(pierrotmalls@domain.com)
 ㅡ
-[$domain=/^hoohootv[0-9]*.[a-zA-Z]{2,}$/]###img_row_container
+*##[target='_blank']:has(img[alt$='광고'])
+*##[target='_blank']:has(img[alt$='배너'])
 [$domain=/^avpink\d+.com/]##.with-sidebar-right.widget-area
-*##div[style*='height:']:has(.adsbygoogle)
+[$domain=/^hoohootv[0-9]*.[a-zA-Z]{2,}$/]###img_row_container
 [$domain=/^jogaeparty\d+.com/]##[target='_blank']:has(img)
 [$domain=/^yako[0-9]*.[a-zA-Z]{2,}$/]###banner
 [$domain=/^yatube[0-9]*.[a-zA-Z]{2,}$/]###banner
 [$domain=/^yatv[0-9]*.[a-zA-Z]{2,}$/]###banner
 m.ruliweb.com#%#//scriptlet('trusted-click-element', 'span[class="ip"] > span[class="ip_hide"]', '' , '1000')
 ㅡ
-coinpan.com#%#//scriptlet('trusted-click-element', 'div.bottom_actions > div.open_close_button', '', '300')
 @@||mega.$extension="Scroll to top"
 @@||whale.naver.com^$stealth=useragent
+coinpan.com#%#//scriptlet('trusted-click-element', 'div.bottom_actions > div.open_close_button', '', '300')
 
 
 ! already added rules
