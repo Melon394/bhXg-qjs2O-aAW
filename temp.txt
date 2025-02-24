@@ -1,5 +1,5 @@
 ! Title: temp
-! Version: 2025-02-23
+! Version: 2025-02-24
 ! Description: none
 
 
@@ -11,13 +11,16 @@ aimatters.co.kr##.popmake-overlay
 algumon.com##.a-post-detail-bottom
 ##.happy-header-mobile
 ##.happy-under-player-mobile
-@@||assets.011st.com/MW/js/rake/v1.2.0/rakeLog-mobile.js$domain=11pcs.11st.co.kr
+@@||assets.011st.com/MW/js/rake/$domain=11pcs.11st.co.kr
 ##[class*='ad'][id^='AD']
 ##.ad-view
 watchakr.com##.at-title > .at-container
-news.samsung.com,avav19.com##[class$='anner']
+news.samsung.com,avav19.com,yna.co.kr##[class$='anner']
 instiz.net###out_enter
 cashfeed.co.kr##.power-link
+yna.co.kr##.article > aside:has(yna-ad-script)
+yna.co.kr##aside:has([data-widget_id])
+##iframe[src*='cdn.targetpush.co.kr']
 ㅡ
 [$domain=/^hoohootv[0-9]*.[a-zA-Z]{2,}$/]###img_row_container
 [$domain=/^avpink\d+.com/]##.with-sidebar-right.widget-area
@@ -26,9 +29,11 @@ cashfeed.co.kr##.power-link
 [$domain=/^yako[0-9]*.[a-zA-Z]{2,}$/]###banner
 [$domain=/^yatube[0-9]*.[a-zA-Z]{2,}$/]###banner
 [$domain=/^yatv[0-9]*.[a-zA-Z]{2,}$/]###banner
+m.ruliweb.com#%#//scriptlet('trusted-click-element', 'span[class="ip"] > span[class="ip_hide"]', '' , '1000')
 ㅡ
 coinpan.com#%#//scriptlet('trusted-click-element', 'div.bottom_actions > div.open_close_button', '', '300')
-@@||mega.io^$extension="Scroll to top"
+@@||mega.$extension="Scroll to top"
+@@||whale.naver.com^$stealth=useragent
 
 
 ! already added rules
